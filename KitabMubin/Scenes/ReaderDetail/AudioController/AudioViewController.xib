@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AudioViewController" customModule="KitabMubin" customModuleProvider="target">
+            <connections>
+                <outlet property="ButtonPlay" destination="ACR-lh-FBy" id="8LH-mk-b7a"/>
+                <outlet property="containterView" destination="ggY-wx-Lez" id="wqG-Bs-IXh"/>
+                <outlet property="lblOverallDuration" destination="3bd-DE-R6s" id="8L4-Df-mSc"/>
+                <outlet property="lblcurrentText" destination="nfi-d1-hDG" id="jur-QS-mQb"/>
+                <outlet property="loadingView" destination="th8-Zu-GI9" id="dFB-s5-oRr"/>
+                <outlet property="playbackSlider" destination="agz-1P-lcs" id="bO0-EM-Xos"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ggY-wx-Lez">
+                    <rect key="frame" x="0.0" y="276" width="393" height="300"/>
+                    <subviews>
+                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="agz-1P-lcs">
+                            <rect key="frame" x="14" y="72" width="365" height="31"/>
+                            <color key="tintColor" name="KMGreanBackGround"/>
+                        </slider>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfi-d1-hDG">
+                            <rect key="frame" x="16" y="24" width="42" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="KlH-RN-8LS"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bd-DE-R6s">
+                            <rect key="frame" x="335" y="24" width="42" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="fan-lj-Ygw"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACR-lh-FBy">
+                            <rect key="frame" x="146.66666666666666" y="100" width="100" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="E8f-Mj-Fwz"/>
+                                <constraint firstAttribute="width" constant="100" id="Q1H-BO-rJQ"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="ic_orchadio_play" title=" "/>
+                            <connections>
+                                <action selector="ButtonPlay:" destination="-1" eventType="touchUpInside" id="cYS-lx-Eyo"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7g-9T-x1N">
+                            <rect key="frame" x="262.66666666666669" y="132.33333333333331" width="60" height="35.666666666666657"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="Aer-CT-iPd"/>
+                                <constraint firstAttribute="width" constant="60" id="i2u-Xn-McM"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="ic_orchadio_go_forward_sec" title=" "/>
+                            <connections>
+                                <action selector="ButtonForwardSec:" destination="-1" eventType="touchUpInside" id="aoU-FO-qaR"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JkK-md-ck4">
+                            <rect key="frame" x="70.666666666666671" y="120" width="60.000000000000014" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="6RV-GQ-ERP"/>
+                                <constraint firstAttribute="width" constant="60" id="tJH-M0-zPO"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="ic_orchadio_bacward_sec" title=" "/>
+                            <connections>
+                                <action selector="ButtonGoToBackSec:" destination="-1" eventType="touchUpInside" id="8ds-bQ-Dgq"/>
+                            </connections>
+                        </button>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="th8-Zu-GI9">
+                            <rect key="frame" x="156.66666666666666" y="110" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="dqQ-Uq-x2j"/>
+                                <constraint firstAttribute="height" constant="80" id="yfN-Me-Ar5"/>
+                            </constraints>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="agz-1P-lcs" firstAttribute="leading" secondItem="ggY-wx-Lez" secondAttribute="leading" constant="16" id="4NY-cn-f3T"/>
+                        <constraint firstItem="P7g-9T-x1N" firstAttribute="leading" secondItem="ACR-lh-FBy" secondAttribute="trailing" constant="16" id="4c5-x4-bJB"/>
+                        <constraint firstItem="nfi-d1-hDG" firstAttribute="top" secondItem="ggY-wx-Lez" secondAttribute="top" constant="24" id="4fW-V9-51b"/>
+                        <constraint firstAttribute="trailing" secondItem="3bd-DE-R6s" secondAttribute="trailing" constant="16" id="Dar-cs-kYd"/>
+                        <constraint firstAttribute="height" constant="300" id="L4C-03-KaT"/>
+                        <constraint firstAttribute="trailing" secondItem="agz-1P-lcs" secondAttribute="trailing" constant="16" id="MIx-yu-Wfe"/>
+                        <constraint firstItem="th8-Zu-GI9" firstAttribute="centerX" secondItem="ggY-wx-Lez" secondAttribute="centerX" id="NRR-dk-2R7"/>
+                        <constraint firstItem="ACR-lh-FBy" firstAttribute="leading" secondItem="JkK-md-ck4" secondAttribute="trailing" constant="16" id="Pvb-aj-8yx"/>
+                        <constraint firstItem="3bd-DE-R6s" firstAttribute="top" secondItem="ggY-wx-Lez" secondAttribute="top" constant="24" id="cvT-nd-0Yh"/>
+                        <constraint firstItem="P7g-9T-x1N" firstAttribute="centerY" secondItem="ACR-lh-FBy" secondAttribute="centerY" id="cwB-Tp-6QQ"/>
+                        <constraint firstItem="th8-Zu-GI9" firstAttribute="centerY" secondItem="ggY-wx-Lez" secondAttribute="centerY" id="h0S-EN-h32"/>
+                        <constraint firstItem="JkK-md-ck4" firstAttribute="centerY" secondItem="ACR-lh-FBy" secondAttribute="centerY" id="hgl-bs-nWj"/>
+                        <constraint firstItem="nfi-d1-hDG" firstAttribute="leading" secondItem="ggY-wx-Lez" secondAttribute="leading" constant="16" id="jbN-oL-2Iw"/>
+                        <constraint firstItem="ACR-lh-FBy" firstAttribute="centerX" secondItem="ggY-wx-Lez" secondAttribute="centerX" id="nD7-4X-p2s"/>
+                        <constraint firstItem="agz-1P-lcs" firstAttribute="top" secondItem="nfi-d1-hDG" secondAttribute="bottom" constant="24" id="tfK-IX-pfy"/>
+                        <constraint firstItem="ACR-lh-FBy" firstAttribute="centerY" secondItem="ggY-wx-Lez" secondAttribute="centerY" id="v4i-Pr-daS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ggY-wx-Lez" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="UDR-jk-8s0"/>
+                <constraint firstItem="ggY-wx-Lez" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="XEJ-P9-xVr"/>
+                <constraint firstItem="ggY-wx-Lez" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jLP-qp-PaN"/>
+                <constraint firstItem="ggY-wx-Lez" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="rUu-vG-iAG"/>
+            </constraints>
+            <point key="canvasLocation" x="101.5267175572519" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_orchadio_bacward_sec" width="19.333333969116211" height="21.666666030883789"/>
+        <image name="ic_orchadio_go_forward_sec" width="19.333333969116211" height="21.666666030883789"/>
+        <image name="ic_orchadio_play" width="16.666666030883789" height="18"/>
+        <namedColor name="KMGreanBackGround">
+            <color red="0.050980392156862744" green="0.83529411764705885" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

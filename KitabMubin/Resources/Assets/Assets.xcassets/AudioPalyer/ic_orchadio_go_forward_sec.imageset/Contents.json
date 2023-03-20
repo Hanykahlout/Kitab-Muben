@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_orchadio_go_forward_sec.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "ic_orchadio_go_forward_sec@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "ic_orchadio_go_forward_sec@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

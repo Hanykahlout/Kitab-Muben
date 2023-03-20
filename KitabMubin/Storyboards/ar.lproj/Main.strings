@@ -1,0 +1,111 @@
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "1Th-tv-miH"; */
+"1Th-tv-miH.normalTitle" = "Start";
+
+/* Class = "UIButton"; normalTitle = "Download Version"; ObjectID = "5YR-LI-rnq"; */
+"5YR-LI-rnq.normalTitle" = "Download Version";
+
+/* Class = "UIButton"; normalTitle = "حذف الكل"; ObjectID = "6Km-bv-XBD"; */
+"6Km-bv-XBD.normalTitle" = "حذف الكل";
+
+/* Class = "UILabel"; text = "رقمها  أياتها"; ObjectID = "8lq-0c-taV"; */
+"8lq-0c-taV.text" = "رقمها  أياتها";
+
+/* Class = "UINavigationItem"; title = "الأجزاء"; ObjectID = "DC4-yl-hJu"; */
+"DC4-yl-hJu.title" = "الأجزاء";
+
+/* Class = "UILabel"; text = "حول التطبيق"; ObjectID = "I7d-i7-XpF"; */
+"I7d-i7-XpF.text" = "حول التطبيق";
+
+/* Class = "UITabBarItem"; title = "فواصل"; ObjectID = "Jh5-ac-ANN"; */
+"Jh5-ac-ANN.title" = "فواصل";
+
+/* Class = "UILabel"; text = "80 / 100"; ObjectID = "M31-hg-wMo"; */
+"M31-hg-wMo.text" = "80 / 100";
+
+/* Class = "UILabel"; text = "80 / 100"; ObjectID = "Nn4-cE-pIT"; */
+"Nn4-cE-pIT.text" = "80 / 100";
+
+/* Class = "UITabBarItem"; title = "الفهرس"; ObjectID = "PY4-hb-ia5"; */
+"PY4-hb-ia5.title" = "الفهرس";
+
+/* Class = "UILabel"; text = "اٰلِ عِمْرَان"; ObjectID = "Rgn-Dj-MAU"; */
+"Rgn-Dj-MAU.text" = "اٰلِ عِمْرَان";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "VFz-D4-tsZ"; */
+"VFz-D4-tsZ.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VFz-D4-tsZ"; */
+"VFz-D4-tsZ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "المدينة"; ObjectID = "Xbg-dk-eps"; */
+"Xbg-dk-eps.text" = "المدينة";
+
+/* Class = "UILabel"; text = "الدولة"; ObjectID = "cyZ-D0-LiX"; */
+"cyZ-D0-LiX.text" = "الدولة";
+
+/* Class = "UILabel"; text = "Download New version  of KitabMubin"; ObjectID = "dNJ-xu-FE5"; */
+"dNJ-xu-FE5.text" = "Download New version  of KitabMubin";
+
+/* Class = "UILabel"; text = "الرسالة"; ObjectID = "eaH-8Z-Jd3"; */
+"eaH-8Z-Jd3.text" = "الرسالة";
+
+/* Class = "UILabel"; text = "تواصل  معنا"; ObjectID = "ewM-HS-dNL"; */
+"ewM-HS-dNL.text" = "تواصل  معنا";
+
+/* Class = "UILabel"; text = "Downloaded"; ObjectID = "fO8-ni-G4A"; */
+"fO8-ni-G4A.text" = "Downloaded";
+
+/* Class = "UILabel"; text = "القبلة"; ObjectID = "fdp-5w-zIu"; */
+"fdp-5w-zIu.text" = "القبلة";
+
+/* Class = "UIButton"; normalTitle = "تواصل على واتساب"; ObjectID = "fm6-0d-Qlw"; */
+"fm6-0d-Qlw.normalTitle" = "تواصل على واتساب";
+
+/* Class = "UITabBarItem"; title = "الأجزاء"; ObjectID = "h5Y-mf-qTv"; */
+"h5Y-mf-qTv.title" = "الأجزاء";
+
+/* Class = "UIButton"; configuration.title = " "; ObjectID = "hMj-HY-9kC"; */
+"hMj-HY-9kC.configuration.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hMj-HY-9kC"; */
+"hMj-HY-9kC.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "البريد الالكتروني"; ObjectID = "jjZ-kw-Lpd"; */
+"jjZ-kw-Lpd.text" = "البريد الالكتروني";
+
+/* Class = "UILabel"; text = "الصفحة ٥   "; ObjectID = "lQV-sk-w1j"; */
+"lQV-sk-w1j.text" = "الصفحة ٥   ";
+
+/* Class = "UILabel"; text = "الجزء"; ObjectID = "lQb-u9-nNC"; */
+"lQb-u9-nNC.text" = "الجزء";
+
+/* Class = "UILabel"; text = "أوقات الصلاة"; ObjectID = "nSt-yA-P3v"; */
+"nSt-yA-P3v.text" = "أوقات الصلاة";
+
+/* Class = "UINavigationItem"; title = "الفواصل"; ObjectID = "nlc-n6-OSf"; */
+"nlc-n6-OSf.title" = "الفواصل";
+
+/* Class = "UINavigationItem"; title = "الفهرس"; ObjectID = "oeo-hG-7FN"; */
+"oeo-hG-7FN.title" = "الفهرس";
+
+/* Class = "UINavigationItem"; title = "الأدوات"; ObjectID = "poy-nw-cmD"; */
+"poy-nw-cmD.title" = "الأدوات";
+
+/* Class = "UIButton"; normalTitle = "ارسال"; ObjectID = "prx-Za-eZ6"; */
+"prx-Za-eZ6.normalTitle" = "ارسال";
+
+/* Class = "UITabBarItem"; title = "الأدوات"; ObjectID = "rJB-DL-PEj"; */
+"rJB-DL-PEj.title" = "الأدوات";
+
+/* Class = "UILabel"; text = "المصحف"; ObjectID = "vfa-Sz-4vu"; */
+"vfa-Sz-4vu.text" = "المصحف";
+
+/* Class = "UILabel"; text = "الاسم"; ObjectID = "wG8-lN-Qg8"; */
+"wG8-lN-Qg8.text" = "الاسم";
+
+/* Class = "UILabel"; text = "الاسم"; ObjectID = "wvI-rj-aKs"; */
+"wvI-rj-aKs.text" = "الاسم";
+
+/* Class = "UITextView"; text = " "; ObjectID = "yAq-XL-nhJ"; */
+"yAq-XL-nhJ.text" = " ";

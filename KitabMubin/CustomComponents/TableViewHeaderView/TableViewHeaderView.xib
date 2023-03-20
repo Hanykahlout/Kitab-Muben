@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Tajawal-Bold.ttf">
+            <string>Tajawal-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="TableViewHeaderView" customModule="KitabMubin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ijp-Hx-iIZ">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                    <subviews>
+                        <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCW-sD-mpd">
+                            <rect key="frame" x="0.0" y="22.5" width="414" height="15"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Tajawal-Bold" family="Tajawal" pointSize="15"/>
+                            <color key="textColor" name="KMPlaceHolderTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" name="KMWhiteBackGround"/>
+                    <constraints>
+                        <constraint firstItem="DCW-sD-mpd" firstAttribute="leading" secondItem="ijp-Hx-iIZ" secondAttribute="leading" id="8kw-U2-M0I"/>
+                        <constraint firstAttribute="trailing" secondItem="DCW-sD-mpd" secondAttribute="trailing" id="cBA-Sk-ZXV"/>
+                        <constraint firstItem="DCW-sD-mpd" firstAttribute="centerY" secondItem="ijp-Hx-iIZ" secondAttribute="centerY" id="tAx-ue-l3e"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ijp-Hx-iIZ" secondAttribute="bottom" id="7AD-wU-bw2"/>
+                <constraint firstItem="ijp-Hx-iIZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EOR-5h-HIM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ijp-Hx-iIZ" secondAttribute="trailing" id="ZwZ-MJ-Jgw"/>
+                <constraint firstItem="ijp-Hx-iIZ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="tva-Ls-hLL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="containerView" destination="ijp-Hx-iIZ" id="JdL-as-OmW"/>
+                <outlet property="titleLabel" destination="DCW-sD-mpd" id="BAD-43-VNN"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="85"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="KMPlaceHolderTextColor">
+            <color red="0.5725490196078431" green="0.56862745098039214" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="KMWhiteBackGround">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

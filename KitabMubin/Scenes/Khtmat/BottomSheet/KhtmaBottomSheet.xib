@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Tajawal-Bold.ttf">
+            <string>Tajawal-Bold</string>
+        </array>
+        <array key="Tajawal-Regular.ttf">
+            <string>Tajawal-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KhtmaBottomSheet" customModule="KitabMubin" customModuleProvider="target">
+            <connections>
+                <outlet property="detailsLabel" destination="ENo-Dy-hXW" id="x7J-hc-Eg7"/>
+                <outlet property="editButton" destination="8fy-yB-I7r" id="e95-nV-42J"/>
+                <outlet property="secondButton" destination="BPL-Sw-CwU" id="STM-Yd-9qt"/>
+                <outlet property="titleLabel" destination="LI3-Yb-w8F" id="gA1-lo-ddK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="413"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LI3-Yb-w8F" userLabel="titleLabel">
+                    <rect key="frame" x="16" y="79" width="350" height="24"/>
+                    <fontDescription key="fontDescription" name="Tajawal-Bold" family="Tajawal" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENo-Dy-hXW" userLabel="detailsLabel">
+                    <rect key="frame" x="16" y="119" width="350" height="16"/>
+                    <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fy-yB-I7r">
+                    <rect key="frame" x="16" y="195" width="350" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="m48-LF-ocH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="16"/>
+                    <color key="tintColor" name="KMTextColor"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="editTapped:" destination="-1" eventType="touchUpInside" id="7fS-HI-H9a"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPL-Sw-CwU">
+                    <rect key="frame" x="16" y="271" width="350" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="4QI-Kd-5o3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="16"/>
+                    <color key="tintColor" name="KMDeleteColor"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="secondButtonTapped:" destination="-1" eventType="touchUpInside" id="Cak-an-tV0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ENo-Dy-hXW" secondAttribute="trailing" constant="16" id="88u-WG-xt1"/>
+                <constraint firstItem="ENo-Dy-hXW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="E1H-LI-ThU"/>
+                <constraint firstItem="BPL-Sw-CwU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Jmc-HG-x28"/>
+                <constraint firstItem="8fy-yB-I7r" firstAttribute="top" secondItem="ENo-Dy-hXW" secondAttribute="bottom" constant="60" id="Lif-P5-CKW"/>
+                <constraint firstItem="LI3-Yb-w8F" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="QmB-nC-W0J"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BPL-Sw-CwU" secondAttribute="trailing" constant="16" id="U4K-N3-4GZ"/>
+                <constraint firstItem="LI3-Yb-w8F" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="32" id="Xw3-OY-Zfl"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8fy-yB-I7r" secondAttribute="trailing" constant="16" id="azb-aG-pbb"/>
+                <constraint firstItem="8fy-yB-I7r" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="bHF-dS-Sq6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LI3-Yb-w8F" secondAttribute="trailing" constant="16" id="cud-rh-bUV"/>
+                <constraint firstItem="BPL-Sw-CwU" firstAttribute="top" secondItem="8fy-yB-I7r" secondAttribute="bottom" constant="16.000000000000028" id="mKm-m5-BjD"/>
+                <constraint firstItem="ENo-Dy-hXW" firstAttribute="top" secondItem="LI3-Yb-w8F" secondAttribute="bottom" constant="16" id="xi7-n6-YMd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="130.76923076923077" y="173.10426540284359"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="KMDeleteColor">
+            <color red="1" green="0.16470588235294117" blue="0.45098039215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="KMTextColor">
+            <color red="0.0" green="0.094117647058823528" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Tajawal-Medium.ttf">
+            <string>Tajawal-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="106" id="KGk-i7-Jjw" customClass="AzkarTableViewCell" customModule="KitabMubin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QST-Bf-vqc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2RG-6s-pya">
+                                <rect key="frame" x="278" y="31" width="26" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="26" id="1cn-FK-BEC"/>
+                                    <constraint firstAttribute="height" constant="26" id="5En-6X-RPd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Azkar sbah  " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jcw-ve-1OM">
+                                <rect key="frame" x="16" y="36.666666666666664" width="76.333333333333329" height="15"/>
+                                <fontDescription key="fontDescription" name="Tajawal-Medium" family="Tajawal" pointSize="15"/>
+                                <color key="textColor" name="KMTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16: 30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGY-I3-YVt">
+                                <rect key="frame" x="225" y="34" width="37" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="0ml-xa-u8U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Tajawal-Medium" family="Tajawal" pointSize="15"/>
+                                <color key="textColor" name="KMGreanBackGround"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Puk-1S-bIF">
+                                <rect key="frame" x="262" y="0.0" width="58" height="88"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                <connections>
+                                    <action selector="notificationTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="jzq-i7-bwi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="KMBackgroundLight2"/>
+                        <constraints>
+                            <constraint firstItem="MGY-I3-YVt" firstAttribute="centerY" secondItem="QST-Bf-vqc" secondAttribute="centerY" id="4t8-C2-S1d"/>
+                            <constraint firstItem="Jcw-ve-1OM" firstAttribute="leading" secondItem="QST-Bf-vqc" secondAttribute="leading" constant="16" id="5Ou-rv-HRS"/>
+                            <constraint firstItem="MGY-I3-YVt" firstAttribute="leading" relation="lessThanOrEqual" secondItem="Jcw-ve-1OM" secondAttribute="trailing" constant="142" id="7Yh-4o-BR9"/>
+                            <constraint firstAttribute="bottom" secondItem="Puk-1S-bIF" secondAttribute="bottom" id="EDy-v5-ufo"/>
+                            <constraint firstItem="Jcw-ve-1OM" firstAttribute="centerY" secondItem="QST-Bf-vqc" secondAttribute="centerY" id="Fou-sU-R5O"/>
+                            <constraint firstItem="2RG-6s-pya" firstAttribute="leading" secondItem="MGY-I3-YVt" secondAttribute="trailing" constant="16" id="QVb-ZJ-Nk5"/>
+                            <constraint firstAttribute="trailing" secondItem="2RG-6s-pya" secondAttribute="trailing" constant="16" id="Vms-EP-rOV"/>
+                            <constraint firstItem="Puk-1S-bIF" firstAttribute="leading" secondItem="MGY-I3-YVt" secondAttribute="trailing" id="dKW-bn-wJM"/>
+                            <constraint firstItem="2RG-6s-pya" firstAttribute="centerY" secondItem="QST-Bf-vqc" secondAttribute="centerY" id="k7b-dI-DJ7"/>
+                            <constraint firstItem="Puk-1S-bIF" firstAttribute="top" secondItem="QST-Bf-vqc" secondAttribute="top" id="q2W-DB-Ekk"/>
+                            <constraint firstAttribute="trailing" secondItem="Puk-1S-bIF" secondAttribute="trailing" id="yzl-mY-x2Y"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="QST-Bf-vqc" secondAttribute="trailing" id="Eel-3G-aGH"/>
+                    <constraint firstAttribute="bottom" secondItem="QST-Bf-vqc" secondAttribute="bottom" constant="12" id="H6c-Tq-EeD"/>
+                    <constraint firstItem="QST-Bf-vqc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="fTI-Mw-bmi"/>
+                    <constraint firstItem="QST-Bf-vqc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="yvf-B1-bmX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="azkarNameLabel" destination="Jcw-ve-1OM" id="UhU-bt-zWm"/>
+                <outlet property="containerView" destination="QST-Bf-vqc" id="rM4-rY-eOs"/>
+                <outlet property="notificationImage" destination="2RG-6s-pya" id="SwV-ci-tJC"/>
+                <outlet property="notificationTime" destination="MGY-I3-YVt" id="LnP-rX-s9C"/>
+            </connections>
+            <point key="canvasLocation" x="135.38461538461539" y="104.50236966824644"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="KMBackgroundLight2">
+            <color red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="KMGreanBackGround">
+            <color red="0.050980392156862744" green="0.83529411764705885" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="KMTextColor">
+            <color red="0.0" green="0.094117647058823528" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

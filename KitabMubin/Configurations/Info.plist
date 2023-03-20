@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.970713535442-arp9umfh6o5phnlgieu1ihepcj7d3e9g</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>whatsapp</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Tajawal-Black.ttf</string>
+		<string>Tajawal-Bold.ttf</string>
+		<string>Tajawal-ExtraBold.ttf</string>
+		<string>Tajawal-ExtraLight.ttf</string>
+		<string>Tajawal-Light.ttf</string>
+		<string>Tajawal-Medium.ttf</string>
+		<string>Tajawal-Regular.ttf</string>
+		<string>AlMajeed-Regular.ttf</string>
+		<string>amiri-slanted.ttf</string>
+		<string>amiri-regular.ttf</string>
+		<string>amiri-quran.ttf</string>
+		<string>amiri-quran-colored.ttf</string>
+		<string>amiri-boldslanted.ttf</string>
+		<string>amiri-bold.ttf</string>
+		<string>uthmanic_hafs_v20.tff</string>
+		<string>HafsNastaleeq_Ver10.otf</string>
+		<string>UthmanicHafs1_Ver13.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+</dict>
+</plist>
